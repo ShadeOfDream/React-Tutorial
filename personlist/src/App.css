@@ -9,7 +9,7 @@
   width: 17rem;
   padding: 1rem;
   margin: 2rem auto;
-  transition: all 0.3s linear;
+  transition: all 0.3 linear;
   border-radius: 0.3rem;
   text-align: center;
 }
@@ -24,6 +24,12 @@
   margin: 0.5rem 0;
   letter-spacing: 0.15rem;
   color: teal;
+}
+
+.person h4.about {
+  color: black;
+  font-weight: normal;
+  text-align: center;
 }
 
 .person:hover {
