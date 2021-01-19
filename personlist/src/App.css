@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.person-img {
+.person img {
   border-radius: 50%;
   border: 0.1rem solid teal;
 }
@@ -27,5 +27,5 @@
 }
 
 .person:hover {
-  box-shadow: 2px 5px 10px rgba(0, 0, 0, 3);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
