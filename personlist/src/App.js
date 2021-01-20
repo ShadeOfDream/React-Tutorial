@@ -8,40 +8,52 @@ const PersonList = () => {
     {
       img:22,
       name: 'John',
-      job:"developer"
+      job:"Developer"
     },
     {
       img:34,
-      name:"bob",
-      job:"designer"
+      name:"Bob",
+      job:"Designer"
     },
     {
       img:56,
-      name:"peter",
-      job:"artist"
+      name:"Peter",
+      job:"Artist"
     },
     {
       img:12,
-      name:"bob",
-      job:"designer"
+      name:"William",
+      job:"Teacher"
     },
     {
       img:73,
-      name:"peter",
-      job:"artist"
+      name:"Lucas",
+      job:"Doctor"
     }
   ];
   return(
     <section>
-      <Person person={people[0]}/>
-      <Person person={people[1]}>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+    <Person person={people[0]}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Contrary to popular belief, Lorem Ipsum is not simply random text.
       </Person>
-      <Person person={people[2]}/>
-      <Person person={people[3]}/>
-      <Person person={people[4]}/>
+      <Person person={people[1]}>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Contrary to popular belief, Lorem Ipsum is not simply random text.
+      </Person>
+      <Person person={people[2]}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Contrary to popular belief, Lorem Ipsum is not simply random text.
+      </Person>
+      <Person person={people[3]}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Contrary to popular belief, Lorem Ipsum is not simply random text.
+      </Person>
+      <Person person={people[4]}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Contrary to popular belief, Lorem Ipsum is not simply random text.
+        Lorem ipsum dolor sit amet.
+      </Person>
     </section>
   );
   // return <Person></Person>
@@ -58,7 +70,7 @@ const Person = (props) => {
       <div>
         <h4>{name}</h4>
         <h4>{job}</h4>
-        <h4>{children}</h4>
+        <h4 className="about">{children}</h4>
       </div>
     </div>
   );
