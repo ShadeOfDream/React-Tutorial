@@ -2,6 +2,7 @@
 
 in vscode terminal
 ---
+cd testwebpack</br>
 
 npm init //(enter...)</br>
 npm install --save-dev webpack webpack-dev-server</br>
@@ -13,3 +14,10 @@ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @babel/
 npm start
 
 //start script error 
+
+
+npm install --save-dev style-loader css-loader</br>
+npm install --save-dev postcss-loader</br>
+npm install --save-dev autoprefixer</br>
+npm install --save-dev url-loader</br>
+npm install --save-dev html-webpack-plugin</br>
