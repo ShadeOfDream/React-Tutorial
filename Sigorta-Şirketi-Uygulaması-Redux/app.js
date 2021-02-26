@@ -69,11 +69,10 @@ const store = createStore(ourDepartments);
 store.dispatch(createPolicy('Zeki',20));
 store.dispatch(createPolicy('Mustafa',30));
 store.dispatch(createPolicy('Zeynep',100));
+store.dispatch(createPolicy('Kürşat',10));
+store.dispatch(createPolicy('Eda',2));
 store.dispatch(createClaim('Kürşat',120));
 store.dispatch(createClaim('Eda',5));
-store.dispatch(deletePolicy('Zeynep'));
-
-
 
 console.log(store.getState());
 
